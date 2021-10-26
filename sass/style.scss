@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(40, 153, 153);
+}
+
+.slider{
+    width: 800px;
+    border: 10px solid white;
+    margin:30px auto;
+    position: relative;
+   
+    .slider-items{
+        .active {
+            display: none;
+        }
+        .item{
+            position: relative;
+            
+            .caption{
+                position: absolute;
+                width: 100%;
+                height: 60px;
+                bottom: 0;
+                left: 0;
+                text-align: center;
+                font-size: 25px;
+                color: rgb(85, 15, 165);
+                font-weight: 700;
+            }
+            
+            
+            img{
+                max-width: 100%;
+                
+
+            }
+        }
+    }
+    .controls{
+        .left_row{
+            position: absolute;
+            left: 0;
+            top: 200px;
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+            
+
+
+        }
+        .right_row{
+            position: absolute;
+            right: 0;
+            top: 200px;
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+#slider_page {
+    margin-top: 70px;
+    background-color: aqua;
+    padding: 100px;
+
+    .wrapper {
+       
+        position: relative;
+        #right_row {
+            position: absolute;
+            top: 100px;
+            left: 475px;
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        #left_row {
+           position: absolute;
+            top: 100px;
+            left: 0;
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+        }
+    
+    
+
+        .slider {
+            display: flex;
+           
+            width: 500px;
+           
+            img{
+                width: 100%;
+            }
+        }
+
+            
+   
+       
+
+    }   
+}
+*/
